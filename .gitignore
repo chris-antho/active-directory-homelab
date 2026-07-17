@@ -1,0 +1,29 @@
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# macOS files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Sensitive files
+passwords.txt
+credentials.txt
+secrets.txt
+*.key
+*.pfx
+*.pem
+
+# Virtual machine files
+*.iso
+*.qcow2
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.ovf
