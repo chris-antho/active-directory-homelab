@@ -3,17 +3,17 @@
 ## Project Overview
 
 This project documents the deployment of a Microsoft Active Directory environment 
-in my Proxmox homelab
+in my Proxmox homelab.
 
 The environment includes a Windows Server Domain Controller and a Windows 11 client. 
-The project is designed to provide hands-on experience with Windows Server, Active Directory, 
-Domain Services, DNS, user administration, domain authentication, and Group Policy.
+The project is designed to provide hands-on experience with Windows Server, 
+Active Directory Domain Services, DNS, user administration, domain authentication, and Group Policy.
 
 ## Project Goals
 - Deploy a Windows Server virtual machine
 - Configure a static IP address
 - Install Active Directory
-- Promote the server to to a Domain Controller
+- Promote the server to a Domain Controller
 - Configure a new Active Directory forest and domain
 - Configure DNS
 - Deploy a Windows 11 client
@@ -28,10 +28,17 @@ Domain Services, DNS, user administration, domain authentication, and Group Poli
 
 ### Physical Host
 
-- Dell Optiplex 7070 Micro
+- Dell OptiPlex 7070 Micro
 - Intel Core i5-9500T
 - 16 GB RAM
 - Proxmox VE
+
+### Virtual Machines
+
+| Virtual Machine | Purpose | CPU | Memory | Storage |
+|---|---|---:|---:|---:|
+| Windows Server | Domain Controller and DNS server | 2 cores | 3 GB | 50 GB |
+| Windows 11 | Domain-joined client | 2 cores | 3 GB | 50 GB |
 
 ### Architecture
 
